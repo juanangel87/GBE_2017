@@ -1,4 +1,4 @@
-open(MIarbol,"HCV.tre")|| die "cannot find file\n";
+open(MIarbol,"XXX.tre")|| die "cannot find file\n"; #replace "XXX.tre" by the file name of the tree to analyze
 $output = "branch_lengths";
 open(branch_lengths, ">$output");
       while( <MIarbol> )
